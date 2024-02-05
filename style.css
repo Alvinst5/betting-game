@@ -1,0 +1,35 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ece2e2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1544306094-e2dcf9479da3) no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+
+button {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    border:1px solid #111;
+    border-radius: 5px;
+    background-color: #4c9ed9;
+    color: #ffffff;
+}
+button:hover{
+    background-color: #ffffff;
+    color: #4c9ed9;
+    border:1px solid #111;
+}
