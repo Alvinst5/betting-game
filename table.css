@@ -1,0 +1,117 @@
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ece2e2;
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat;
+   
+}
+
+.red{
+    
+    padding: 8px;
+    
+    margin: 5px;
+    cursor: pointer;
+    border:1px solid #111;
+    border-radius: 5px;
+    background-color: #d32a2a;
+    color: #ffffff;
+    width: 180px;
+    height: 200px;
+}
+.black{
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    border:1px solid #111;
+    border-radius: 5px;
+    background-color: #221d1d;
+    color: #ffffff;
+    width: 180px;
+    height: 200px;
+}
+.border1{
+    border: 3px ;
+    position: fixed;
+    top:10%;
+    width: 100%;
+    height: 40%;
+  
+}
+#Result {
+    border: 3px  ;
+    position: fixed;
+    top:50%;
+    width: 100%;
+    height: 23%;
+
+}
+#result_button{
+    position:fixed;
+    left: 45%;
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+    border:1px solid #111;
+    border-radius: 5px;
+    background-color: #221d1d;
+    color: #ffffff;
+    width: 180px;
+    height: 200px;
+}
+#res{
+    position:fixed;
+    top: 53%;
+    left: 27%;
+    font-size: 50px;
+    color:chartreuse;
+
+}
+.black:focus{
+    background-color: rgb(53, 187, 124);
+}
+.red:focus{
+    background-color: rgb(53, 187, 124);
+}
+#Final {
+    border: 3px ;
+    position: fixed;
+    top:80%;
+    width: 100%;
+    height: 17%;
+}
+#reward{
+    background-color:rgb(187, 187, 53);
+    padding: 6px;
+    border: none;
+    cursor:pointer;
+    font-size: 40px;
+    color:#880c0c;
+    border-radius: 5px;
+    position:fixed;
+    top:85%;
+    left:70%;
+}
+#res2{
+    position:fixed;
+    top: 70%;
+    left: 30%;
+    font-size: 100px;
+    color:rgb(145, 100, 17);
+}
+#res3{
+    position:fixed;
+    top: 75%;
+    left: 30%;
+    font-size: 58px;
+    color:rgb(145, 100, 17);
+}
+#res4{
+    position:fixed;
+    top: 81%;
+    left: 42%;
+    font-size: 65px;
+    color:rgb(145, 100, 17);
+}
