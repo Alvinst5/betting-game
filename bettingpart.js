@@ -28,7 +28,7 @@ function option(y){
         document.getElementById("Final").append(a);
         document.getElementById("Final").append(p2);
         document.getElementById("Final").append(p3);
-}
+    }
 else{
         const p1 =document.createElement('p');
         const p2 =document.createElement('p');
@@ -40,5 +40,5 @@ else{
         a.setAttribute("href","https://i.ytimg.com/vi/k6PEnJG2VE0/sddefault.jpg");
         document.getElementById("Final").append(a);
         document.getElementById("Final").append(p1);
-}
+    }
 }
